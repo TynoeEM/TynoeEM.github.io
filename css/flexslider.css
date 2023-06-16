@@ -1,6 +1,6 @@
 /*
  * jQuery FlexSlider v2.0
- * http://www.woothemes.com/flexslider/
+ * http://www.tinosboe.com/flexslider/
  *
  * Copyright 2012 WooThemes
  * Free to use under the GPLv2 license.
@@ -13,9 +13,9 @@
 /* Browser Resets */
 
 .flex-container a:active,
-.flexslider a:active,
+.flex-slider a:active,
 .flex-container a:focus,
-.flexslider a:focus {
+.flex-slider a:focus {
     outline: none;
 }
 
@@ -31,12 +31,12 @@
 /* FlexSlider Necessary Styles
 *********************************/
 
-.flexslider {
+.flex-slider {
     margin: 0;
     padding: 0;
 }
 
-.flexslider .slides>li {
+.flex-slider .slides>li {
     display: none;
     -webkit-backface-visibility: hidden;
 }
@@ -105,7 +105,7 @@ html[xmlns] .slides {
     max-height: 300px;
 }
 
-.flexslider .slides {
+.flex-slider .slides {
     zoom: 1;
 }
 
